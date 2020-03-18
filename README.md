@@ -1,6 +1,7 @@
 # covid_19_py
 
-Purpose
+# Purpose
+
 As COVID-19 continues to spread across the world, creating a global pandemic, one of the greatest challenges to disease response is a lack of data and evidence about infection rates and vulnerable populations. But as data continues to emerge, there will be much to learn about the virus, which will help both direct response efforts, but also businesses and multinational organizations whose work spans multiple countries. To help DAI and other global development organizations better understand vulnerabilities in the communities in which they work, CDA will investigate potential demographic, socio-economic, and environmental correlates to infection and mortality rates. Data will be analyzed at the country level and results have several potential uses such as to inform clients about countries with greater risk factors, to inform health programming, and to understand countries where DAI works that are  at risk for infection or mortality. This activity can showcase DAI’s data analysis capabilities and incorporate new data in near real time as it become available.
 Hypotheses
 
