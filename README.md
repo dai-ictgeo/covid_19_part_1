@@ -1,6 +1,6 @@
 # COVID19 Country Level Risk Index
 ## DAI Global Health & Center for Digital Acceleration
-https://www.dai.com/
+https://www.dai.com/ <br>
 https://twitter.com/DAIGlobal
 
 # Purpose
