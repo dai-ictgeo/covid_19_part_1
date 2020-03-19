@@ -13074,12 +13074,73 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
+
+<span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;&lt;script&gt;</span>
+<span class="s1">code_show=true; </span>
+<span class="s1">function code_toggle() {</span>
+<span class="s1"> if (code_show){</span>
+<span class="s1"> $(&#39;div.input&#39;).hide();</span>
+<span class="s1"> } else {</span>
+<span class="s1"> $(&#39;div.input&#39;).show();</span>
+<span class="s1"> }</span>
+<span class="s1"> code_show = !code_show</span>
+<span class="s1">} </span>
+<span class="s1">$( document ).ready(code_toggle);</span>
+<span class="s1">&lt;/script&gt;</span>
+<span class="s1">&lt;i&gt;The raw code for this IPython notebook is by default hidden for easier reading.</span>
+<span class="s1">To toggle on/off the raw code, click &lt;a href=&quot;javascript:code_toggle()&quot;&gt;here&lt;/a&gt;.&lt;/i&gt;&#39;&#39;&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[3]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<script>
+code_show=true; 
+function code_toggle() {
+ if (code_show){
+ $('div.input').hide();
+ } else {
+ $('div.input').show();
+ }
+ code_show = !code_show
+} 
+$( document ).ready(code_toggle);
+</script>
+<i>The raw code for this IPython notebook is by default hidden for easier reading.
+To toggle on/off the raw code, click <a href="javascript:code_toggle()">here</a>.</i>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Background">Background<a class="anchor-link" href="#Background">&#182;</a></h1><p>As COVID-19 continues to spread across the world, one of the greatest challenges to response efforts is a lack of data and evidence about infection and mortality rates. We will learn more about the virus and the  populations most at risk as more test kits arrive in the hands of physicians and the total number of cases becomes clearer. Ideally, this information will be used to help target response efforts, guide policy decisions, inform the donor community, and support decision-making by businesses and multinational organizations whose work spans multiple countries. As a global development company with staff in over ___ countries, this kind of information is invaluable, as we think about ways to support our staff, and prepare for what comes next.</p>
-<p>Information from the earliest confirmed cases of COVID-19 indicates that some groups of people are at a higher risk for infection than others. Public health organizations like the WHO and US CDC have released warnings for those at higher risk to take extra precautionary measures. To help DAI and other global development organizations better understand vulnerabilities in the communities in which they work, the DAI Global Health and the Center for Digital Acceleration are tracking these risk factors, in addition to other potential correlates to mortality rates.</p>
-<p>In this first of a multi-part series, we will keep an updated record of demographic, socio-economic, and environmental factors that are perceived to being correlated with heightened risk of mortality and identify known country and subnational datasets that can help us identify countries at risk. We will also provide charts and maps to identify potential country level “hotspots.”</p>
+<h1 id="COVID19-Risk-Factors-Part-1:-Demography,-Behavior,-Environment,-and-Personal-Health">COVID19 Risk Factors Part 1: Demography, Behavior, Environment, and Personal Health<a class="anchor-link" href="#COVID19-Risk-Factors-Part-1:-Demography,-Behavior,-Environment,-and-Personal-Health">&#182;</a></h1><h4 id="Authors:-Gratiana-Fu,-Greg-Maly,-and-Jamie-Parr">Authors: Gratiana Fu, Greg Maly, and Jamie Parr<a class="anchor-link" href="#Authors:-Gratiana-Fu,-Greg-Maly,-and-Jamie-Parr">&#182;</a></h4><p><em>This analysis is Part 1 of a multi-part series on known risk factors associated with COVID-19. We aim to use publicy available datasets to identify national and subnational populations most at risk of hightened mortality rates. This paper will be updated as we identify both new theories and datasets.</em></p>
+<h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><p>As COVID-19 continues to spread across the world, one of the greatest challenges to response efforts is a lack of data and evidence about infection and mortality rates. We will learn more about the virus and the populations most at risk as more test kits arrive in the hands of physicians. Ideally, this information will be used to help target response efforts, guide policy decisions, inform the donor community, and support decision-making by organizations whose work spans multiple countries, and may need to sustain long-term relief efforts. As a global development company with projects <a href="https://www.dai.com/extras/maps/index.html">all over the world</a>, this kind of information is invaluable as we think about ways to support our staff and prepare for what comes next.</p>
+<p>Information from the earliest confirmed cases of COVID-19 indicates that some groups of people are at a higher risk for infection than others. Public health organizations like the WHO and US CDC have <a href="https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html">released warnings</a> for those at higher risk to take extra precautionary measures. To help DAI and other global development organizations better understand vulnerabilities in the communities in which they work, the DAI Global Health and the Center for Digital Acceleration are tracking these risk factors, in addition to other potential correlates to mortality rates.</p>
+<p>In this first of a multi-part series, we will keep an updated record of demographic, socio-economic, personal health, and environmental factors that are perceived to being correlated with heightened risk of mortality, and identify known country and subnational datasets that can help us identify regions at risk. We will supplement this analysis with charts and maps.</p>
 
 </div>
 </div>
@@ -13087,7 +13148,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Theories">Theories<a class="anchor-link" href="#Theories">&#182;</a></h1><h3 id="(THIS-SECTION-WILL-BE-UPDATED-AS-WE-LEARN-MORE-ABOUT-RISK-FACTORS)">(THIS SECTION WILL BE UPDATED AS WE LEARN MORE ABOUT RISK FACTORS)<a class="anchor-link" href="#(THIS-SECTION-WILL-BE-UPDATED-AS-WE-LEARN-MORE-ABOUT-RISK-FACTORS)">&#182;</a></h3><p>Below is a list of factors that have emerged as known drivers of increasing risk of mortality. Some of these theories are based on information released by official public health bodies while others are factors that could be proxies. As we learn more about possible drivers from the medical community, we will update this analysis with new datasets when possible.</p>
+<h1 id="Theories">Theories<a class="anchor-link" href="#Theories">&#182;</a></h1><p><em>NOTE: THIS SECTION WILL BE UPDATED AS WE LEARN MORE ABOUT RISK FACTORS</em></p>
+<p>Below is a list of factors that have emerged as known drivers of increasing risk of mortality. Some of these theories are based on information released by official public health bodies while others are factors that could be proxies. As we learn more about possible drivers from the medical community, we will update this analysis with new datasets when possible.</p>
 <ol>
 <li>People over the age of 65+ are at higher risk (CDC)</li>
 <li>People who smoke are at higher risk (CDC)</li>
@@ -13096,9 +13158,9 @@ div#notebook {
 <li>Heart disease</li>
 <li>Diabetes</li>
 <li>Lung disease</li>
+<li>People who have hypertension are at higher risk (Bloomberg News)</li>
 </ol>
 </li>
-<li>People who have hypertension are at higher risk (Bloomberg News)</li>
 </ol>
 
 </div>
