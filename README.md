@@ -8,14 +8,14 @@ Information from the earliest confirmed cases of COVID-19 indicates that some gr
 
 # Data
 
-As a team, we are working to gather data on country level factors. That data is currently in a public good spreadsheet.
+As a team, we are working to gather data on country level factors. That data is currently in a public google spreadsheet.
 
 Link: https://docs.google.com/spreadsheets/d/1eeg9dpIlP9jENJsp-cWY51Kw8fojpLnh6mhxORCTPL8/edit?usp=sharing
 
 # Research Roadmap
 
-1.	Part 1: Demographic, Socio-economic, and Environmental Statistics. This will focus on demographic descriptive statistics of country level factors that MAY show vulnerable populations based on current hypotheses. For example, we hear that people over the age of 65 are at high risk of mortality. We will take this as truth (until proven otherwise) and use country level data on population distribution to highlight what countries have an older vs. younger population.  
+1.	**Part 1: Demographic, Socio-economic, and Environmental Statistics.** This will focus on demographic descriptive statistics of country level factors that MAY show vulnerable populations based on current hypotheses. For example, we hear that people over the age of 65 are at high risk of mortality. We will take this as truth (until proven otherwise) and use country level data on population distribution to highlight what countries have an older vs. younger population.  
 
-2.	Part 2: Country preparedness. This assessment would look at scores as assessed by the Joint External Evaluations (JEE) and or Nuclear Threat Initiatives (NTI) Global Health Security Index, and highlight country level preparedness vs trends in infection/mortality.   
+2.	**Part 2: Country Preparedness.** This assessment would look at scores as assessed by the Joint External Evaluations (JEE) and or Nuclear Threat Initiatives (NTI) Global Health Security Index, and highlight country level preparedness vs trends in infection/mortality.   
 
-3.	Part 3: Factor analysis. This third paper in a series will test for correlations between the factors identified in the previous two papers, and mortality rates as reported by the CDC and other official outlets. The statistical will stay live on a website and update over time.
+3.	**Part 3: Risk Index**. This third paper will combine data from the previous two analysis to create a risk index, identifying countries at greatest risk based on all data collected.
