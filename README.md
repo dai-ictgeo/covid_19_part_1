@@ -19,3 +19,7 @@ Link: https://docs.google.com/spreadsheets/d/1eeg9dpIlP9jENJsp-cWY51Kw8fojpLnh6m
 2.	**Part 2: Country Preparedness.** This assessment would look at scores as assessed by the Joint External Evaluations (JEE) and or Nuclear Threat Initiatives (NTI) Global Health Security Index, and highlight country level preparedness vs trends in infection/mortality.   
 
 3.	**Part 3: Risk Index**. This third paper will combine data from the previous two analysis to create a risk index, identifying countries at greatest risk based on all data collected.
+
+# Contact 
+
+Are you interested in contributing to this research, or have thoughts on how to improve the index? Please tweet us at @DAIglobal.
